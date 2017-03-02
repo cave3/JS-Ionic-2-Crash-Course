@@ -15,13 +15,40 @@ $ ionic lab
 
 ```
 
-Generate a new page
+Generate new pages
 ```
 $ ionic g page <page_name>
 
 ```
+___
+## cordova
 
-Run iOS simulator
+Add platform
 ```
-cordova run ios
+$ cordova platform add android
+```
+
+OR
+
+```
+$ cordova platform add ios
+```
+
+
+___
+### Run simulator
+```
+$ ionic run ios
+```
+
+OR
+```
+$ ionic run android
+```
+
+___ 
+### Build Android .apk file
+
+```
+ionic build android
 ```
